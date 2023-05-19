@@ -1,0 +1,41 @@
+:root{
+    --bg_site: #fed0bb;
+    --bg_table:  white;
+    --c_border: #6b1d64;
+    --c_th: #8c2f39;
+    --c_th_text: #ffffff;
+
+}
+
+body{
+    background-color: var(--bg_site);
+}
+
+
+table{
+    margin: auto;
+    text-align: center;
+    border-spacing: 0px;
+    background-color: var(--bg_table);
+}
+
+table, th, td{
+    border: 1px solid var(--c_border);
+}
+
+
+td, th{
+    min-width: 130px;
+    max-width: 220px;
+    height: 30px;
+}
+
+
+th{
+    background-color:var(--c_th);
+
+}
+
+.sub_titulo{
+    background-color: #b23a48;
+}
