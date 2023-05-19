@@ -9,6 +9,7 @@
 
 body{
     background-color: var(--bg_site);
+    
 }
 
 
@@ -17,6 +18,8 @@ table{
     text-align: center;
     border-spacing: 0px;
     background-color: var(--bg_table);
+    Width: 600px;
+    Height: 400px;
 }
 
 table, th, td{
